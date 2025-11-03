@@ -1,0 +1,18 @@
+{
+  "lang": "en",
+  "pages": {
+    "notfound": {
+      "title": "Page Not Found",
+      "description": "The page you requested could not be found on this site.",
+      "keywords": "404, page not found, does not exist"
+    }
+  },
+  "notfound": {
+    "breadcrumb": {
+      "title": "Nonexistent Page"
+    },
+    "subtitle": "Nonexistent Page — Oooops!",
+    "text": "Sorry, the page you’re looking for could not be found",
+    "btn": "Back Home"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "lang": "ro",
+"pages": {
+  "notfound": {
+    "title": "Pagina nu a fost găsită",
+    "description": "Pagina solicitată nu a fost găsită pe site.",
+    "keywords": "404, pagină nu există, not found"
+  }
+},
+"notfound": {
+"breadcrumb": {
+"title": "Pagină inexistentă"
+},
+"subtitle": "Pagină inexistentă - Oooops!",
+"text": "Ne pare rău, pagina pe care o cauți nu a fost găsită",
+"btn": "Înapoi acasă"
+}
+}
