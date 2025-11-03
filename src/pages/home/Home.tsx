@@ -45,17 +45,20 @@ export default function Home() {
         <div className={styles.home_inside}>
           <div className={styles.home_inside_left}>
             <div className={styles.home_inside_left_pretitle}>
-              Seminar științifico-practic
+              {t('pages.home.hero.pretitle')}
             </div>
             <div className={styles.home_inside_left_title}>
-              Potențialul melifer al republicii moldova: știință și practică în
-              apicultură
+              {t('pages.home.hero.titleLine1')}
+              <br />
+              {t('pages.home.hero.titleLine2')}
             </div>
             <div className={styles.home_inside_left_subtitle}>
-              Evenimentul este organizat în cadrul proiectului de doctorat
-              „Aspecte tehnologice de întocmire a conveierului melifer în
-              condițiile Republicii Moldova”, specialitatea 421.02 Alimentația
-              animalelor și tehnologia furajelor.
+              {t('pages.home.hero.subtitlePart1')}{' '}
+              {t('pages.home.hero.subtitlePart2')}
+              <br /> <br />
+              {t('pages.home.hero.subtitlePart3')}{' '}
+              <b>{t('pages.home.hero.subtitleHighlight')}</b>
+              {t('pages.home.hero.subtitlePart4')}
             </div>
             <div className={styles.home_inside_left_btns}>
               <Button
@@ -66,7 +69,7 @@ export default function Home() {
                 hover_bgcolor={'var(--theme_secondary_color_yellow)'}
                 hover_border={'var(--theme_secondary_color_yellow)'}
               >
-                Despre eveniment
+                {t('pages.home.hero.buttons.about')}
               </Button>
               <Button
                 to="/agenda"
@@ -74,13 +77,13 @@ export default function Home() {
                 hover_bgcolor={'var(--theme_secondary_color_yellow)'}
                 hover_border={'var(--theme_secondary_color_yellow)'}
               >
-                Agenda
+                {t('pages.home.hero.buttons.agenda')}
               </Button>
             </div>
           </div>
           <img
             className={styles.home_hero_img}
-            alt="Home"
+            alt={t('pages.home.hero.imageAlt')}
             src="/images/home_hero_1.webp"
           />
         </div>
@@ -90,46 +93,43 @@ export default function Home() {
         <div className={styles.partners_block}>
           <img
             className={styles.partners_img}
-            alt="Partner"
+            alt={t('pages.home.partners.imageAlt')}
             src="/images/p1.webp"
           />
         </div>
         <div className={styles.partners_block}>
           <img
             className={styles.partners_img}
-            alt="Partner"
+            alt={t('pages.home.partners.imageAlt')}
             src="/images/p2.webp"
           />
         </div>
         <div className={styles.partners_block}>
           <img
             className={styles.partners_img}
-            alt="Partner"
+            alt={t('pages.home.partners.imageAlt')}
             src="/images/p3.webp"
           />
         </div>
         <div className={styles.partners_block}>
           <img
             className={styles.partners_img}
-            alt="Partner"
+            alt={t('pages.home.partners.imageAlt')}
             src="/images/p4.webp"
           />
         </div>
       </Slider>
 
       <div className={styles.home_block_2}>
-        <div className={styles.home_block_2_title_1}>Despre Proiect</div>
+        <div className={styles.home_block_2_title_1}>
+          {t('pages.home.projectSection.title')}
+        </div>
         <div className={styles.home_block_2_text_1}>
-          Seminar științifico-practic realizat in cadrul Universitatii tehnică a
-          Moldovei, Facultatea științe agricole silvice și ale mediului,
-          Departamentul resurse animaliere și siguranța alimentelor
+          {t('pages.home.projectSection.textPart1')}
           <br /> <br />
-          Evenimentul este organizat în cadrul proiectului de doctorat{' '}
-          <b>
-            „Aspecte tehnologice de întocmire a conveierului melifer în
-            condițiile Republicii Moldova”
-          </b>
-          , specialitatea 421.02 Alimentația animalelor și tehnologia furajelor.
+          {t('pages.home.projectSection.textPart2')}{' '}
+          <b>{t('pages.home.projectSection.textBold')}</b>
+          {t('pages.home.projectSection.textPart3')}
         </div>
         <div className={styles.home_block_2_btns}>
           <Button
@@ -140,7 +140,7 @@ export default function Home() {
             hover_bgcolor={'var(--theme_secondary_color_yellow)'}
             hover_border={'var(--theme_secondary_color_yellow)'}
           >
-            Contacte
+            {t('pages.home.projectSection.buttons.contacts')}
           </Button>
           <Button
             to="/agenda"
@@ -148,63 +148,80 @@ export default function Home() {
             hover_bgcolor={'var(--theme_secondary_color_yellow)'}
             hover_border={'var(--theme_secondary_color_yellow)'}
           >
-            Agenda
+            {t('pages.home.projectSection.buttons.agenda')}
           </Button>
         </div>
       </div>
 
       <div className={styles.about}>
         <div className={styles.about_left}>
-          <div className={styles.about_left_title}>COMITETUL ORGANIZATORIC</div>
+          <div className={styles.about_left_title}>
+            {t('pages.home.organizing.title')}
+          </div>
           <div className={styles.about_list}>
             <span>
-              <b>DRAGOMAN Iurii</b>, doctorand, UTM, FȘASM
+              <b>{t('pages.home.organizing.members.dragoman.name')}</b>,{' '}
+              {t('pages.home.organizing.members.dragoman.role')}
             </span>
             <span>
-              <b>BIVOL Ludmila</b>, dr., lector univ., UTM, FȘASM
+              <b>{t('pages.home.organizing.members.bivol.name')}</b>,{' '}
+              {t('pages.home.organizing.members.bivol.role')}
             </span>
             <span>
-              <b>CIBOTARU Elena</b>, dr., conf. univ., UTM, FȘASM
+              <b>{t('pages.home.organizing.members.cibotaru.name')}</b>,{' '}
+              {t('pages.home.organizing.members.cibotaru.role')}
             </span>
             <span>
-              <b>PETCU Iana</b>, doctorandă, UTM, FȘASM
+              <b>{t('pages.home.organizing.members.petcu.name')}</b>,{' '}
+              {t('pages.home.organizing.members.petcu.role')}
             </span>
             <span>
-              <b>BRÎNZA Cristian</b>, masterand, UTM, FIEB
+              <b>{t('pages.home.organizing.members.brinza.name')}</b>,{' '}
+              {t('pages.home.organizing.members.brinza.role')}
             </span>
             <span>
-              <b>RUSU Ion</b>, masterand, UTM, FIEB
+              <b>{t('pages.home.organizing.members.rusu.name')}</b>,{' '}
+              {t('pages.home.organizing.members.rusu.role')}
             </span>
           </div>
         </div>
 
         <div className={styles.about_left}>
-          <div className={styles.about_left_title}>COMITETUL ȘTIINȚIFIC</div>
+          <div className={styles.about_left_title}>
+            {t('pages.home.scientific.title')}
+          </div>
           <div className={styles.about_list}>
             <span>
-              <b>EREMIA Nicolae</b>, dr. hab., prof. univ., UTM, FȘASM
+              <b>{t('pages.home.scientific.members.eremia.name')}</b>,{' '}
+              {t('pages.home.scientific.members.eremia.role')}
             </span>
             <span>
-              <b>CAISÎN Larisa</b>, dr. hab., prof. univ., UTM, FȘASM
+              <b>{t('pages.home.scientific.members.caisin.name')}</b>,{' '}
+              {t('pages.home.scientific.members.caisin.role')}
             </span>
             <span>
-              <b>MARDARI Tatiana</b>, dr., conf. univ., UTM, FȘASM
+              <b>{t('pages.home.scientific.members.mardari.name')}</b>,{' '}
+              {t('pages.home.scientific.members.mardari.role')}
             </span>
             <span>
-              <b>MELNIC Victor</b>, dr., conf. univ., USM, președinte AO
-              „AROMEDA”
+              <b>{t('pages.home.scientific.members.melnic.name')}</b>,{' '}
+              {t('pages.home.scientific.members.melnic.role')}
             </span>
             <span>
-              <b>CIBOTARU Elena</b>, dr., conf. univ., UTM, FȘASM
+              <b>{t('pages.home.scientific.members.cibotaru.name')}</b>,{' '}
+              {t('pages.home.scientific.members.cibotaru.role')}
             </span>
             <span>
-              <b>ZAGAREANU Andrei</b>, dr., președinte ANARM
+              <b>{t('pages.home.scientific.members.zagareanu.name')}</b>,{' '}
+              {t('pages.home.scientific.members.zagareanu.role')}
             </span>
             <span>
-              <b>CATARAGA Ivan</b>, dr., apicultor
+              <b>{t('pages.home.scientific.members.cataraga.name')}</b>,{' '}
+              {t('pages.home.scientific.members.cataraga.role')}
             </span>
             <span>
-              <b>DRAGOMAN Iurii</b>, doctorand, UTM, FȘASM
+              <b>{t('pages.home.scientific.members.dragoman.name')}</b>,{' '}
+              {t('pages.home.scientific.members.dragoman.role')}
             </span>
           </div>
         </div>

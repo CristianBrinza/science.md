@@ -18,8 +18,12 @@ export default function Contacts() {
       <Navbar />
 
       <div className={styles.contacts}>
-        <div className={styles.contacts_title_1}>Contacts</div>
-        <div className={styles.contacts_text_1}></div>
+        <div className={styles.contacts_title_1}>
+          {t('pages.contacts.heading')}
+        </div>
+        <div className={styles.contacts_text_1}>
+          {t('pages.contacts.text')}
+        </div>
       </div>
       <Footer disclaimer={true} />
     </>
