@@ -6,7 +6,9 @@
       "links": {
         "about": "Despre",
         "agenda": "Agenda",
-        "contacts": "Contacte"
+        "contacts": "Contacte",
+        "participa": "Înregistrare",
+        "participa_tu": "Înregistrează-te"
       }
     }
   },

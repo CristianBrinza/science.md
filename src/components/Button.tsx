@@ -55,22 +55,28 @@ const Button: React.FC<ButtonProps> = ({
     setIsHovered(false);
   };
 
-  const handleClick = async () => {
-    if (onClick) {
-      await onClick(); // Ensure analytics tracking completes
-    }
+  const handleClick = async (e?: React.MouseEvent) => {
+    if (disabled) return;
+    if (onClick) await onClick();
 
     if (to) {
+      if (to.startsWith('mailto:')) {
+        // open email client in a new tab without redirecting
+        window.open(to, '_blank');
+        return;
+      }
+
       if (
-        to.startsWith('tel:') ||
-        to.startsWith('http://') ||
-        to.startsWith('https://') ||
-        to.startsWith('www.')
+          to.startsWith('tel:') ||
+          to.startsWith('http://') ||
+          to.startsWith('https://') ||
+          to.startsWith('www.')
       ) {
-        // Handle external links including phone links
         window.location.href = to;
-      } else if (!to.startsWith('/files/')) {
-        // Handle internal links
+        return;
+      }
+
+      if (!to.startsWith('/files/')) {
         navigate(to);
       }
     }

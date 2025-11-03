@@ -175,6 +175,56 @@
   font-family: 'Exo 2', Sans-serif;
   /*font-size: 14px;*/
 }
+.register{
+  width: 100%;
+  border-radius: 24px;
+  /*border: 1px solid #e3e9ee;*/
+  /*background-color: #e3e9ee;*/
+  /*padding: 10px;*/
+  /*box-sizing: border-box;*/
+  margin: 20px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: none;
+}
+.register_block{
+  /*width: 24%;*/
+  width: 100%;
+  max-width: 285px;
+  display: flex;
+  border: 1px solid #e3e9ee;
+  height: 80px;
+  gap: 5px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0 20px;
+  box-sizing: border-box;
+
+}
+.register_block_inside{
+display: flex;
+  flex-direction: column;
+  /*gap: 5px;*/
+}
+.register_block_top{
+opacity: 0.5;
+  font-size: 13px;
+  line-height: 14px;
+  font-weight: 500;
+}
+.register_block_bottom{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  font-family: 'Exo 2', Sans-serif;
+
+}
+
+
+
 
 @media (max-width: 1300px) {
   .home_hero_img {

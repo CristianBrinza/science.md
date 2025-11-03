@@ -6,7 +6,10 @@
       "links": {
         "about": "About",
         "agenda": "Agenda",
-        "contacts": "Contacts"
+        "contacts": "Contacts",
+        "participa": "Register",
+        "participa_tu": "Sign up"
+
       }
     }
   },

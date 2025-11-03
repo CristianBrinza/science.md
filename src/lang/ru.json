@@ -6,7 +6,10 @@
       "links": {
         "about": "О проекте",
         "agenda": "Программа",
-        "contacts": "Контакты"
+        "contacts": "Контакты",
+        "participa": "Регистрация",
+        "participa_tu": "Зарегистрируйся"
+
       }
     }
   },
