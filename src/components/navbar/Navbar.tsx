@@ -18,6 +18,11 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
         setIsListLangPopupVisible(!isListLangPopupVisible);
     };
 
+    const [isMenuVisible, setIsMenuVisible] = useState(false);
+    const toggleMenuVisibility = () => {
+        setIsMenuVisible(!isMenuVisible);
+        // setOverlayVisible(true);
+    };
     const handleChangeLanguage = (lang: string) => {
         setLanguage(lang); // setează global limba
 
@@ -36,19 +41,20 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
 
    <div className={`${styles.navbar} ${className}`}>
        <div className={styles.navbar_inside}>
-           <div className={styles.navbar_inside_right}>
+           <div className={styles.navbar_logo_block}>
                <a href="/"><img className={styles.navbar_logo} alt="Logo" src="/images/logo_blue.webp"/></a>
            </div>
 
-           <div className={styles.navbar_inside_right}>
+           <div
+                className={`${styles.navbar_inside_right} ${isMenuVisible ? styles.navbar_inside_right_show : ''}`}>
                <div className={styles.navbar_inside_right_navbar}><a href="/about">Despre</a></div>
                <div className={styles.navbar_inside_right_navbar}><a href="/agenda">Agenda</a></div>
                <div className={styles.navbar_inside_right_navbar}><a href="/contacts">Contacte</a></div>
 
            </div>
 
-           <div className={styles.navbar_inside_right_navbar_mob}  onClick={toggleLangPopup}>
-               <div className={styles.navbar_inside_right_navbar_lang}>
+           <div className={styles.navbar_inside_right_navbar_mob}>
+               <div className={styles.navbar_inside_right_navbar_lang} onClick={toggleLangPopup}>
 
                        {i18n.language === 'en' ? (
                            <Icon type="en" size="28px"/>
@@ -59,45 +65,28 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
                        )}
 
                </div>
+               <div  className={styles.navbar_inside_right_navbar_mob_menu} onClick={toggleMenuVisibility}>
+                   <Icon type="menu" size="28px"/>
+               </div>
 
-               <div className={styles.navbar_inside_right_navbar_lang_choose}>
-                   <div className={styles.navbar_inside_right_navbar_lang_choose_btn}>
+
+               <div
+                    className={`${styles.navbar_inside_right_navbar_lang_choose} ${
+                        isListLangPopupVisible
+                            ? styles.navbar_inside_right_navbar_lang_choose_show
+                            : ''
+                    }`}>
+                   <div className={styles.navbar_inside_right_navbar_lang_choose_btn}
+                        onClick={() => handleChangeLanguage('ro')}>
                    <Icon type="ro" size="22px"/>
                        &nbsp;&nbsp; RO
                    </div>
-                   <div className={styles.navbar_inside_right_navbar_lang_choose_btn}>
+                   <div className={styles.navbar_inside_right_navbar_lang_choose_btn}
+                        onClick={() => handleChangeLanguage('ru')}>
                         <Icon type="ru" size="22px"/>
                        &nbsp;&nbsp; RU
                    </div>
                </div>
-           </div>
-       </div>
-       <div
-           className={`${styles.navbar_bottom_menu_right_lang_btn} `}
-           onClick={toggleLangPopup}
-       >
-           {i18n.language === 'en' ? (
-               <Icon type="en" size="28px"/>
-           ) : i18n.language === 'ro' ? (
-               <Icon type="ro" size="28px"/>
-           ) : (
-               <Icon type="ru" size="28px"/>
-           )}
-       </div>
-       <div
-           className={`${styles.navbar_bottom_menu_right_lang} ${
-               isListLangPopupVisible
-                   ? styles.navbar_bottom_menu_right_lang_show
-                   : ''
-           }`}
-       >
-           <div
-               className={styles.navbar_bottom_menu_right_lang_btn_select}
-               onClick={() => handleChangeLanguage('ro')}
-           >
-               <Icon type="ro" size="22px"/>
-               &nbsp;&nbsp;
-               RO
            </div>
        </div>
    </div>

@@ -16,10 +16,15 @@ const Footer: React.FC<FooterProps> = ({
 
 
   return (
-    <div style={FooterStyle} className={styles.footer}>
-     footer
-    </div>
-  );
-};
+      <div style={FooterStyle} className={styles.footer}>
+          <div  className={styles.footer_inside}>
+            <div  className={styles.footer_inside_block}>
+              <div  className={styles.footer_inside_block_title}>Contacte</div>
+            </div>
+          </div>
+          <div  className={styles.footer_copyright}>Copyright © 2025 | utm.md</div>
+        </div>
+        );
+        };
 
-export default Footer;
+        export default Footer;
