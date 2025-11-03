@@ -6,7 +6,7 @@ import Button from '../../components/Button.tsx';
 import styles from './Home.module.css';
 import Slider from 'react-slick';
 import React, { useEffect, useState } from 'react';
-import Icon from "../../components/Icon.tsx";
+import Icon from '../../components/Icon.tsx';
 export default function Home() {
   const { t } = useTranslation();
   const seo = {
@@ -195,7 +195,7 @@ export default function Home() {
             hover_bgcolor={'var(--theme_secondary_color_yellow)'}
             hover_border={'var(--theme_secondary_color_yellow)'}
           >
-        {t('components.navbar.links.participa_tu')}
+            {t('components.navbar.links.participa_tu')}
           </Button>
           <Button
             to="/agenda"
@@ -207,10 +207,9 @@ export default function Home() {
           </Button>
         </div>
 
-
         <div className={styles.register}>
           <div className={styles.register_block}>
-          <Button
+            <Button
               to="/contacte"
               color={'#fff'}
               bgcolor={'var(--theme_secondary_color_blue)'}
@@ -224,40 +223,35 @@ export default function Home() {
           </div>
 
           <div className={styles.register_block}>
-            <Icon type={'location'} size={'32px'}/>
+            <Icon type={'location'} size={'32px'} />
             <div className={styles.register_block_inside}>
-              <div className={styles.register_block_top}>
-                cand va avea loc?
-              </div>
+              <div className={styles.register_block_top}>cand va avea loc?</div>
               <div className={styles.register_block_bottom}>
                 23 NOIEMBRIE 2025
               </div>
             </div>
-
           </div>
           <div className={styles.register_block}>
-            <Icon type={'location'} size={'42px'} color={'var(--theme_primary_color_dark_gray)'}/>
+            <Icon
+              type={'location'}
+              size={'42px'}
+              color={'var(--theme_primary_color_dark_gray)'}
+            />
             <div className={styles.register_block_inside}>
-              <div className={styles.register_block_top}>
-                unde va avea loc?
-              </div>
+              <div className={styles.register_block_top}>unde va avea loc?</div>
               <div className={styles.register_block_bottom}>
                 UTM, str. Mircerști 48, aula 14-100
               </div>
             </div>
-
           </div>
           <div className={styles.register_block}>
-            <Icon type={'location'} size={'32px'}/>
+            <Icon type={'location'} size={'32px'} />
             <div className={styles.register_block_inside}>
-              <div className={styles.register_block_top}>
-                unde va avea loc?
-              </div>
+              <div className={styles.register_block_top}>unde va avea loc?</div>
               <div className={styles.register_block_bottom}>
                 UTM, str. Mircerști 48, aula 14-100
               </div>
             </div>
-
           </div>
         </div>
       </div>

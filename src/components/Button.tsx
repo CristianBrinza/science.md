@@ -67,10 +67,10 @@ const Button: React.FC<ButtonProps> = ({
       }
 
       if (
-          to.startsWith('tel:') ||
-          to.startsWith('http://') ||
-          to.startsWith('https://') ||
-          to.startsWith('www.')
+        to.startsWith('tel:') ||
+        to.startsWith('http://') ||
+        to.startsWith('https://') ||
+        to.startsWith('www.')
       ) {
         window.location.href = to;
         return;
