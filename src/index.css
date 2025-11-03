@@ -17,17 +17,16 @@ body {
 }
 
 :root {
-  font-family: Inter, serif;
+  font-family: "Source Sans Pro", Sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
-
   color-scheme: light dark;
   color: #222;
-  background-color: #ffffff;
-
+  background-color: #fff;
   font-synthesis: none;
+
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -35,6 +34,10 @@ body {
   --theme_primary_color_black: #222;
   --theme_primary_color_white: #ffffff;
 
+  --theme_secondary_color_blue: #23557D;
+  --theme_secondary_color_yellow: #FFAB1F;
+
+  --theme_primary_color_dark_gray: #d2d2d2;
 }
 
 @media (prefers-color-scheme: light) {
