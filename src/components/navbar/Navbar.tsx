@@ -10,7 +10,7 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ className }) => {
   const { setLanguage } = useLanguage();
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const [isListLangPopupVisible, setIsListLangPopupVisible] = useState(false);
   const navigate = useNavigate();
 
@@ -44,7 +44,7 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
           <a href="/">
             <img
               className={styles.navbar_logo}
-              alt="Logo"
+              alt={t('components.navbar.logoAlt')}
               src="/images/logo_blue.webp"
             />
           </a>
@@ -54,13 +54,13 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
           className={`${styles.navbar_inside_right} ${isMenuVisible ? styles.navbar_inside_right_show : ''}`}
         >
           <div className={styles.navbar_inside_right_navbar}>
-            <a href="/about">Despre</a>
+            <a href="/about">{t('components.navbar.links.about')}</a>
           </div>
           <div className={styles.navbar_inside_right_navbar}>
-            <a href="/agenda">Agenda</a>
+            <a href="/agenda">{t('components.navbar.links.agenda')}</a>
           </div>
           <div className={styles.navbar_inside_right_navbar}>
-            <a href="/contacts">Contacte</a>
+            <a href="/contacts">{t('components.navbar.links.contacts')}</a>
           </div>
         </div>
 

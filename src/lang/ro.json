@@ -1,6 +1,212 @@
 {
   "lang": "ro",
+  "components": {
+    "navbar": {
+      "logoAlt": "Logo seminar",
+      "links": {
+        "about": "Despre",
+        "agenda": "Agenda",
+        "contacts": "Contacte"
+      }
+    }
+  },
   "pages": {
+    "home": {
+      "title": "Acasă | Potențialul melifer al Republicii Moldova",
+      "description": "Descoperă seminarul științifico-practic dedicat potențialului melifer al Moldovei și unei apiculturi durabile.",
+      "keywords": "seminar apicol, potențial melifer, Moldova, știință apicolă",
+      "hero": {
+        "pretitle": "Seminar științifico-practic",
+        "titleLine1": "Potențialul melifer al Republicii Moldova:",
+        "titleLine2": "știință și practică în apicultură",
+        "subtitlePart1": "Evenimentul este organizat în cadrul proiectului de doctorat",
+        "subtitlePart2": "intitulat",
+        "subtitlePart3": "",
+        "subtitleHighlight": "„Aspecte tehnologice de întocmire a conveierului melifer în condițiile Republicii Moldova”",
+        "subtitlePart4": ", specialitatea 421.02 Alimentația animalelor și tehnologia furajelor.",
+        "buttons": {
+          "about": "Despre eveniment",
+          "agenda": "Agenda"
+        },
+        "imageAlt": "Imagine erou seminar"
+      },
+      "partners": {
+        "imageAlt": "Logo partener"
+      },
+      "projectSection": {
+        "title": "Despre proiect",
+        "textPart1": "Seminar științifico-practic realizat în cadrul Universității Tehnice a Moldovei, Facultatea Științe Agricole, Silvice și ale Mediului, Departamentul Resurse Animaliere și Siguranța Alimentelor.",
+        "textPart2": "Evenimentul este organizat în cadrul proiectului de doctorat",
+        "textBold": "„Aspecte tehnologice de întocmire a conveierului melifer în condițiile Republicii Moldova”",
+        "textPart3": ", specialitatea 421.02 Alimentația animalelor și tehnologia furajelor.",
+        "buttons": {
+          "contacts": "Contacte",
+          "agenda": "Agenda"
+        }
+      },
+      "organizing": {
+        "title": "COMITETUL ORGANIZATORIC",
+        "members": {
+          "dragoman": {
+            "name": "DRAGOMAN Iurii",
+            "role": "doctorand, UTM, FȘASM"
+          },
+          "bivol": {
+            "name": "BIVOL Ludmila",
+            "role": "dr., lector univ., UTM, FȘASM"
+          },
+          "cibotaru": {
+            "name": "CIBOTARU Elena",
+            "role": "dr., conf. univ., UTM, FȘASM"
+          },
+          "petcu": {
+            "name": "PETCU Iana",
+            "role": "doctorandă, UTM, FȘASM"
+          },
+          "brinza": {
+            "name": "BRÎNZA Cristian",
+            "role": "masterand, UTM, FIEB"
+          },
+          "rusu": {
+            "name": "RUSU Ion",
+            "role": "masterand, UTM, FIEB"
+          }
+        }
+      },
+      "scientific": {
+        "title": "COMITETUL ȘTIINȚIFIC",
+        "members": {
+          "eremia": {
+            "name": "EREMIA Nicolae",
+            "role": "dr. hab., prof. univ., UTM, FȘASM"
+          },
+          "caisin": {
+            "name": "CAISÎN Larisa",
+            "role": "dr. hab., prof. univ., UTM, FȘASM"
+          },
+          "mardari": {
+            "name": "MARDARI Tatiana",
+            "role": "dr., conf. univ., UTM, FȘASM"
+          },
+          "melnic": {
+            "name": "MELNIC Victor",
+            "role": "dr., conf. univ., USM, președinte AO „AROMEDA”"
+          },
+          "cibotaru": {
+            "name": "CIBOTARU Elena",
+            "role": "dr., conf. univ., UTM, FȘASM"
+          },
+          "zagareanu": {
+            "name": "ZAGAREANU Andrei",
+            "role": "dr., președinte ANARM"
+          },
+          "cataraga": {
+            "name": "CATARAGA Ivan",
+            "role": "dr., apicultor"
+          },
+          "dragoman": {
+            "name": "DRAGOMAN Iurii",
+            "role": "doctorand, UTM, FȘASM"
+          }
+        }
+      }
+    },
+    "about": {
+      "title": "Despre | Potențialul melifer al Republicii Moldova",
+      "description": "Află mai multe despre seminarul științifico-practic dedicat resurselor melifere ale Moldovei și cercetării aplicate în apicultură.",
+      "keywords": "despre seminar, proiect melifer, apicultură Moldova",
+      "heading": "Despre proiect",
+      "textPart1": "Seminar științifico-practic realizat în cadrul Universității Tehnice a Moldovei, Facultatea Științe Agricole, Silvice și ale Mediului, Departamentul Resurse Animaliere și Siguranța Alimentelor.",
+      "textPart2": "Evenimentul este organizat în cadrul proiectului de doctorat",
+      "textBold": "„Aspecte tehnologice de întocmire a conveierului melifer în condițiile Republicii Moldova”",
+      "textPart3": ", specialitatea 421.02 Alimentația animalelor și tehnologia furajelor."
+    },
+    "contacts": {
+      "title": "Contacte | Potențialul melifer al Republicii Moldova",
+      "description": "Ia legătura cu echipa organizatoare a seminarului despre potențialul melifer al Moldovei.",
+      "keywords": "contact seminar, apicultură Moldova, potențial melifer",
+      "heading": "Contacte",
+      "text": "Pentru informații suplimentare despre seminar, vă rugăm să contactați echipa organizatoare din cadrul Universității Tehnice a Moldovei."
+    },
+    "agenda": {
+      "title": "Agenda | Potențialul melifer al Republicii Moldova",
+      "description": "Consultați programul detaliat al prezentărilor dedicate potențialului melifer și apiculturii din Moldova.",
+      "keywords": "agenda seminar, prezentări apicole, Moldova",
+      "heading": "Agenda",
+      "presentationsTitle": "Prezentări",
+      "items": {
+        "registration": {
+          "title": "Înregistrarea participanților"
+        },
+        "salutation": {
+          "title": "Cuvinte de salutare",
+          "speaker": "POPA Sergiu",
+          "role": "dr., conf. univ., Decan FȘASM, UTM"
+        },
+        "policies": {
+          "title": "Politici de dezvoltare a apiculturii în RM",
+          "speaker": "ROȘCA Valentin",
+          "roleLine1": "Șef Direcție politici în sectorul zootehnic,",
+          "roleLine2": "Ministerul Agriculturii și Industriei Alimentare"
+        },
+        "association": {
+          "title": "Rolul asocierii apicultorilor în dezvoltarea bazei melifere",
+          "speaker": "MAXIM Ion",
+          "role": "Director executiv ANARM"
+        },
+        "currentState": {
+          "title": "Starea actuală a bazei melifere în RM",
+          "speaker": "MARDARI Tatiana",
+          "role": "dr., conf. univ., FȘASM, UTM"
+        },
+        "nutrition": {
+          "title": "Substanțe nutritive necesare pentru sporirea vitalității și productivității albinelor",
+          "speaker": "CAISÎN Larisa",
+          "role": "dr. hab., prof. univ., FȘASM, UTM"
+        },
+        "principles": {
+          "title": "Principii de organizare a conveierului melifer",
+          "speaker": "DRAGOMAN Iurii",
+          "role": "doctorand, FȘASM, UTM"
+        },
+        "melliferousPlants": {
+          "title": "Specii de plante melifere cu utilități aromatice și medicinale",
+          "speaker": "MELNIC Victor",
+          "role": "dr., conf. univ., USM, președinte AO „AROMEDA”"
+        },
+        "forestPlantations": {
+          "title": "Plantări forestiere cu valoare adăugată sporită. Conveierul melifer.",
+          "speaker": "SAINSUS Alexandru V.",
+          "role": "platforma ARBORETUM.LIVE"
+        },
+        "honeyQuality": {
+          "title": "Aspecte ale calității mierii în dependență de zona geografică a RM",
+          "speaker": "CATARAGA Ivan",
+          "role": "doctor în științe agricole, apicultor"
+        },
+        "efficientUse": {
+          "title": "Valorificarea eficientă a bazei melifere existente",
+          "speaker": "SACARA Petru",
+          "role": "președinte AO „MOLDAPIS”, apicultor, crescător de mătci"
+        },
+        "naturalHarvest": {
+          "title": "Culesul natural vs. hrănirea artificială",
+          "speaker": "MIRON Vladimir",
+          "role": "apicultor, APICOLA MIRON"
+        },
+        "competitiveness": {
+          "title": "Influența bazei melifere asupra competitivității produselor apicole",
+          "speaker": "ZBANCĂ Andrei",
+          "role": "dr., conf. univ., FIEB, UTM"
+        },
+        "coffeeBreak": {
+          "title": "Coffee break"
+        },
+        "discussions": {
+          "title": "Discuții"
+        }
+      }
+    },
     "notfound": {
       "title": "Pagina nu a fost găsită",
       "description": "Pagina solicitată nu a fost găsită pe site.",
