@@ -3,20 +3,20 @@
   background: var(--theme_secondary_color_blue);
   padding: 20px 0;
   box-sizing: border-box;
-  color: #fff
+  color: #fff;
 }
 
 .footer_inside {
   width: 100%;
   max-width: 1400px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .footer_inside_block_title {
   color: #fff;
   font-weight: 600;
   font-size: 18px;
-  font-family: "Exo 2",Sans-serif
+  font-family: 'Exo 2', Sans-serif;
 }
 
 .footer_copyright {
@@ -24,6 +24,6 @@
   text-align: center;
   padding: 10px 10px 0;
   box-sizing: border-box;
-  font-family: "Exo 2",Sans-serif;
-  font-size: 12px
+  font-family: 'Exo 2', Sans-serif;
+  font-size: 12px;
 }

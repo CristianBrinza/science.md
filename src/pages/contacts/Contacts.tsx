@@ -4,7 +4,6 @@ import Footer from '../../components/footer/Footer.tsx';
 import styles from './Contacts.module.css';
 import SEO from '../../components/SEO.tsx';
 
-
 export default function Contacts() {
   const { t } = useTranslation();
   const seo = {
@@ -19,13 +18,9 @@ export default function Contacts() {
       <Navbar />
 
       <div className={styles.contacts}>
-
-              <div className={styles.contacts_title_1}>Contacts</div>
-              <div className={styles.contacts_text_1}>
-                  
-              </div>
-
-          </div>
+        <div className={styles.contacts_title_1}>Contacts</div>
+        <div className={styles.contacts_text_1}></div>
+      </div>
       <Footer disclaimer={true} />
     </>
   );

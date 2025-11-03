@@ -6,8 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write .",
+    "deploy": "yarn build && wrangler pages deploy ./dist --project-name=science",
+    "predeploy": "yarn build"
   },
   "dependencies": {
     "react": "^19.1.1",

@@ -7,10 +7,10 @@
   min-height: calc(100vh - 68px);
 }
 .contacts_title_1 {
-  font-family: "Exo 2",Sans-serif;
+  font-family: 'Exo 2', Sans-serif;
   color: var(--theme_secondary_color_blue);
   font-size: 26px;
-  font-weight: 700
+  font-weight: 700;
 }
 
 .contacts_text_1 {

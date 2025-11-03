@@ -120,9 +120,9 @@ const Button: React.FC<ButtonProps> = ({
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={async () => {
-        if (id) {
-          trackEvent(id);
-        }
+        // if (id) {
+        //   trackEvent(id);
+        // }
         if (onClick) {
           await onClick();
         }

@@ -58,8 +58,10 @@
   color: var(--theme_primary_color_black);
   font-weight: 600;
   font-size: 18px;
-  font-family: "Exo 2", Sans-serif;
-  transition: color 0.2s ease, background 0.2s ease;
+  font-family: 'Exo 2', Sans-serif;
+  transition:
+    color 0.2s ease,
+    background 0.2s ease;
 }
 
 .navbar_inside_right_navbar:hover a {
