@@ -5,6 +5,7 @@ import Footer from '../../components/footer/Footer.tsx';
 import Button from '../../components/Button.tsx';
 import styles from './Home.module.css';
 import Slider from 'react-slick';
+import { useEffect, useState } from 'react';
 export default function Home() {
   const { t } = useTranslation();
   const seo = {
@@ -36,6 +37,33 @@ export default function Home() {
       },
     ],
   };
+
+  const targetDate = new Date('2025-11-23T10:00:00+02:00').getTime();
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  function calculateTimeLeft() {
+    const now = new Date().getTime();
+    const difference = targetDate - now;
+
+    if (difference <= 0) {
+      return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+    }
+
+    return {
+      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      minutes: Math.floor((difference / (1000 * 60)) % 60),
+      seconds: Math.floor((difference / 1000) % 60),
+    };
+  }
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <>
@@ -120,6 +148,30 @@ export default function Home() {
         </div>
       </Slider>
 
+      <div className={styles.home_block_2}>
+        <div className={styles.home_block_2_title_1}>
+          Pânaă la eveniment au rămas:
+        </div>
+
+        <div className={styles.cooldown}>
+          <div className={styles.cooldown_block}>
+            <div className={styles.cooldown_block_top}>{timeLeft.days}</div>
+            <div className={styles.cooldown_block_bottom}>zile</div>
+          </div>
+          <div className={styles.cooldown_block}>
+            <div className={styles.cooldown_block_top}>{timeLeft.hours}</div>
+            <div className={styles.cooldown_block_bottom}>ore</div>
+          </div>
+          <div className={styles.cooldown_block}>
+            <div className={styles.cooldown_block_top}>{timeLeft.minutes}</div>
+            <div className={styles.cooldown_block_bottom}>minute</div>
+          </div>
+          <div className={styles.cooldown_block}>
+            <div className={styles.cooldown_block_top}>{timeLeft.seconds}</div>
+            <div className={styles.cooldown_block_bottom}>secunde</div>
+          </div>
+        </div>
+      </div>
       <div className={styles.home_block_2}>
         <div className={styles.home_block_2_title_1}>
           {t('home.projectSection.title')}

@@ -12,9 +12,60 @@
   font-size: 26px;
   font-weight: 700;
 }
+.about_title_2 {
+  font-family: 'Exo 2', Sans-serif;
+  color: var(--theme_secondary_color_blue);
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 40px;
+}
 
 .about_text_1 {
   max-width: 900px;
   line-height: 18px;
   margin: 20px 0 0;
+}
+
+.speakers {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px auto 40px;
+}
+.speaker_card {
+  width: 100%;
+  max-width: 228px;
+}
+.speaker_card_img {
+  width: 100%;
+  border-radius: 5px;
+}
+.speaker_card_name {
+  font-family: 'Exo 2', Sans-serif;
+  /*font-size: 20px;*/
+  font-weight: 600;
+}
+.speaker_card_title {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+@media (max-width: 983px) {
+  .speaker_card {
+    zoom: 0.5;
+  }
+}
+
+@media (max-width: 708px) {
+  .speaker_card {
+    zoom: 0.5;
+  }
+}
+
+@media (max-width: 430px) {
+  .speaker_card {
+    max-width: 48%;
+    zoom: 0.6;
+  }
 }

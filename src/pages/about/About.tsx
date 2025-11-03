@@ -28,6 +28,98 @@ export default function About() {
           {t('about.textPart2')} <b>{t('about.textBold')}</b>
           {t('about.textPart3')}
         </div>
+
+        <div className={styles.about_title_2}>Speakeri:</div>
+
+        <div className={styles.speakers}>
+          <div className={styles.speaker_card}>
+            <img
+              className={styles.speaker_card_img}
+              src="/images/s1.webp"
+              alt="Speaker"
+            />
+            <div className={styles.speaker_card_name}>EREMIA Nicolae</div>
+            <div className={styles.speaker_card_title}>
+              dr. hab., prof. univ., UTM, FȘASM
+            </div>
+          </div>
+          <div className={styles.speaker_card}>
+            <img
+              className={styles.speaker_card_img}
+              src="/images/s0.webp"
+              alt="Speaker"
+            />
+            <div className={styles.speaker_card_name}>CAISÎN Larisa</div>
+            <div className={styles.speaker_card_title}>
+              dr. hab., prof. univ., UTM, FȘASM
+            </div>
+          </div>
+
+          <div className={styles.speaker_card}>
+            <img
+              className={styles.speaker_card_img}
+              src="/images/s0.webp"
+              alt="Speaker"
+            />
+            <div className={styles.speaker_card_name}>MARDARI Tatiana</div>
+            <div className={styles.speaker_card_title}>
+              dr., conf. univ., UTM, FȘASM
+            </div>
+          </div>
+          <div className={styles.speaker_card}>
+            <img
+              className={styles.speaker_card_img}
+              src="/images/s0.webp"
+              alt="Speaker"
+            />
+            <div className={styles.speaker_card_name}>MELNIC Victor</div>
+            <div className={styles.speaker_card_title}>
+              dr., conf. univ., USM, AO „AROMEDA”
+            </div>
+          </div>
+          <div className={styles.speaker_card}>
+            <img
+              className={styles.speaker_card_img}
+              src="/images/s0.webp"
+              alt="Speaker"
+            />
+            <div className={styles.speaker_card_name}>CIBOTARU Elena</div>
+            <div className={styles.speaker_card_title}>
+              dr., conf. univ., UTM, FȘASM
+            </div>
+          </div>
+          <div className={styles.speaker_card}>
+            <img
+              className={styles.speaker_card_img}
+              src="/images/s0.webp"
+              alt="Speaker"
+            />
+            <div className={styles.speaker_card_name}>ZAGAREANU Andrei</div>
+            <div className={styles.speaker_card_title}>
+              dr., președinte ANARM
+            </div>
+          </div>
+          <div className={styles.speaker_card}>
+            <img
+              className={styles.speaker_card_img}
+              src="/images/s0.webp"
+              alt="Speaker"
+            />
+            <div className={styles.speaker_card_name}>CATARAGA Ivan</div>
+            <div className={styles.speaker_card_title}>dr., apicultor</div>
+          </div>
+          <div className={styles.speaker_card}>
+            <img
+              className={styles.speaker_card_img}
+              src="/images/s0.webp"
+              alt="Speaker"
+            />
+            <div className={styles.speaker_card_name}>DRAGOMAN Iurii</div>
+            <div className={styles.speaker_card_title}>
+              doctorand, UTM, FȘASM
+            </div>
+          </div>
+        </div>
       </div>
       <Footer disclaimer={true} />
     </>
