@@ -5,7 +5,7 @@ import Footer from '../../components/footer/Footer.tsx';
 import Button from '../../components/Button.tsx';
 import styles from './Home.module.css';
 import Slider from 'react-slick';
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import Icon from '../../components/Icon.tsx';
 export default function Home() {
   const { t } = useTranslation();

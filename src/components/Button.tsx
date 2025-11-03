@@ -55,7 +55,7 @@ const Button: React.FC<ButtonProps> = ({
     setIsHovered(false);
   };
 
-  const handleClick = async (e?: React.MouseEvent) => {
+  const handleClick = async () => {
     if (disabled) return;
     if (onClick) await onClick();
 
