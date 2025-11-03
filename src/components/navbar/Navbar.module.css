@@ -56,6 +56,8 @@
 .navbar_inside_right_navbar a {
   text-decoration: none;
   color: var(--theme_primary_color_black);
+  /*padding: 0 5px;*/
+  /*box-sizing: border-box;*/
   font-weight: 600;
   font-size: 18px;
   font-family: 'Exo 2', Sans-serif;
@@ -64,8 +66,8 @@
     background 0.2s ease;
 }
 
-.navbar_inside_right_navbar:hover a {
-  color: var(--theme_secondary_color_yellow);
+.navbar_inside_right_navbar:hover {
+  background: var(--theme_secondary_color_yellow);
 }
 
 .navbar_inside_right_navbar_lang {

@@ -10,215 +10,223 @@
       }
     }
   },
-  "pages": {
-    "home": {
-      "title": "Home | Melliferous Potential of the Republic of Moldova",
-      "description": "Discover the scientific and practical seminar dedicated to Moldova's melliferous potential and sustainable beekeeping.",
-      "keywords": "beekeeping seminar, melliferous potential, Moldova, apiculture science",
-      "hero": {
-        "pretitle": "Scientific and practical seminar",
-        "titleLine1": "Melliferous potential of the Republic of Moldova:",
-        "titleLine2": "Science and practice in apiculture",
-        "subtitlePart1": "The event is organized within the doctoral project",
-        "subtitlePart2": "titled",
-        "subtitlePart3": "",
-        "subtitleHighlight": "“Technological aspects of designing the melliferous conveyor under the conditions of the Republic of Moldova”",
-        "subtitlePart4": ", specialization 421.02 Animal nutrition and feed technology.",
-        "buttons": {
-          "about": "About the event",
-          "agenda": "Agenda"
+  "home": {
+    "hero": {
+      "pretitle": "Scientific-practical seminar",
+      "titleLine1": "The melliferous potential of the Republic of Moldova:",
+      "titleLine2": "science and practice in beekeeping",
+      "subtitlePart1": "The event is organized within the doctoral project",
+      "subtitlePart2": "entitled",
+      "subtitlePart3": "",
+      "subtitleHighlight": "“Technological aspects of forming the melliferous conveyor under the conditions of the Republic of Moldova”",
+      "subtitlePart4": ", specialty 421.02 Animal Nutrition and Feed Technology.",
+      "buttons": {
+        "about": "About the event",
+        "agenda": "Agenda"
+      },
+      "imageAlt": "Seminar hero image"
+    },
+    "partners": {
+      "imageAlt": "Partner logo"
+    },
+    "projectSection": {
+      "title": "About the project",
+      "textPart1": "Scientific-practical seminar organized within the Technical University of Moldova, Faculty of Agricultural, Forestry and Environmental Sciences, Department of Animal Resources and Food Safety.",
+      "textPart2": "The event is organized within the doctoral project",
+      "textBold": "“Technological aspects of forming the melliferous conveyor under the conditions of the Republic of Moldova”",
+      "textPart3": ", specialty 421.02 Animal Nutrition and Feed Technology.",
+      "buttons": {
+        "contacts": "Contacts",
+        "agenda": "Agenda"
+      }
+    },
+    "organizing": {
+      "title": "ORGANIZING COMMITTEE",
+      "members": {
+        "dragoman": {
+          "name": "DRAGOMAN Iurii",
+          "role": "PhD student, UTM, FȘASM"
         },
-        "imageAlt": "Seminar banner"
-      },
-      "partners": {
-        "imageAlt": "Partner logo"
-      },
-      "projectSection": {
-        "title": "About the project",
-        "textPart1": "Scientific and practical seminar held within the Technical University of Moldova, Faculty of Agricultural, Forestry and Environmental Sciences, Department of Animal Resources and Food Safety.",
-        "textPart2": "The event is organized within the doctoral project",
-        "textBold": "“Technological aspects of designing the melliferous conveyor under the conditions of the Republic of Moldova”",
-        "textPart3": ", specialization 421.02 Animal nutrition and feed technology.",
-        "buttons": {
-          "contacts": "Contacts",
-          "agenda": "Agenda"
-        }
-      },
-      "organizing": {
-        "title": "ORGANIZING COMMITTEE",
-        "members": {
-          "dragoman": {
-            "name": "DRAGOMAN Iurii",
-            "role": "PhD candidate, TUM, FSAE"
-          },
-          "bivol": {
-            "name": "BIVOL Ludmila",
-            "role": "PhD, lecturer, TUM, FSAE"
-          },
-          "cibotaru": {
-            "name": "CIBOTARU Elena",
-            "role": "PhD, associate professor, TUM, FSAE"
-          },
-          "petcu": {
-            "name": "PETCU Iana",
-            "role": "PhD candidate, TUM, FSAE"
-          },
-          "brinza": {
-            "name": "BRÎNZA Cristian",
-            "role": "Master's student, TUM, FIEB"
-          },
-          "rusu": {
-            "name": "RUSU Ion",
-            "role": "Master's student, TUM, FIEB"
-          }
-        }
-      },
-      "scientific": {
-        "title": "SCIENTIFIC COMMITTEE",
-        "members": {
-          "eremia": {
-            "name": "EREMIA Nicolae",
-            "role": "Dr. habil., university professor, TUM, FSAE"
-          },
-          "caisin": {
-            "name": "CAISÎN Larisa",
-            "role": "Dr. habil., university professor, TUM, FSAE"
-          },
-          "mardari": {
-            "name": "MARDARI Tatiana",
-            "role": "PhD, associate professor, TUM, FSAE"
-          },
-          "melnic": {
-            "name": "MELNIC Victor",
-            "role": "PhD, associate professor, USM, president of AO “AROMEDA”"
-          },
-          "cibotaru": {
-            "name": "CIBOTARU Elena",
-            "role": "PhD, associate professor, TUM, FSAE"
-          },
-          "zagareanu": {
-            "name": "ZAGAREANU Andrei",
-            "role": "PhD, president of ANARM"
-          },
-          "cataraga": {
-            "name": "CATARAGA Ivan",
-            "role": "PhD, beekeeper"
-          },
-          "dragoman": {
-            "name": "DRAGOMAN Iurii",
-            "role": "PhD candidate, TUM, FSAE"
-          }
+        "bivol": {
+          "name": "BIVOL Ludmila",
+          "role": "PhD, university lecturer, UTM, FȘASM"
+        },
+        "cibotaru": {
+          "name": "CIBOTARU Elena",
+          "role": "PhD, associate professor, UTM, FȘASM"
+        },
+        "petcu": {
+          "name": "PETCU Iana",
+          "role": "PhD student, UTM, FȘASM"
+        },
+        "brinza": {
+          "name": "BRÎNZA Cristian",
+          "role": "Master’s student, UTM, FIEB"
+        },
+        "rusu": {
+          "name": "RUSU Ion",
+          "role": "Master’s student, UTM, FIEB"
         }
       }
     },
-    "about": {
-      "title": "About | Melliferous Potential of the Republic of Moldova",
-      "description": "Learn more about the scientific and practical seminar dedicated to Moldova's melliferous resources and applied research in apiculture.",
-      "keywords": "about the seminar, melliferous project, Moldova beekeeping",
-      "heading": "About the project",
-      "textPart1": "Scientific and practical seminar held within the Technical University of Moldova, Faculty of Agricultural, Forestry and Environmental Sciences, Department of Animal Resources and Food Safety.",
-      "textPart2": "The event is organized within the doctoral project",
-      "textBold": "“Technological aspects of designing the melliferous conveyor under the conditions of the Republic of Moldova”",
-      "textPart3": ", specialization 421.02 Animal nutrition and feed technology."
-    },
-    "contacts": {
-      "title": "Contacts | Melliferous Potential of the Republic of Moldova",
-      "description": "Reach out to the organizing team of the melliferous potential seminar in Moldova.",
-      "keywords": "seminar contacts, beekeeping seminar, Moldova",
-      "heading": "Contacts",
-      "text": "For additional information about the seminar, please contact the organizing team at the Technical University of Moldova."
+    "scientific": {
+      "title": "SCIENTIFIC COMMITTEE",
+      "members": {
+        "eremia": {
+          "name": "EREMIA Nicolae",
+          "role": "Dr. habil., university professor, UTM, FȘASM"
+        },
+        "caisin": {
+          "name": "CAISÎN Larisa",
+          "role": "Dr. habil., university professor, UTM, FȘASM"
+        },
+        "mardari": {
+          "name": "MARDARI Tatiana",
+          "role": "PhD, associate professor, UTM, FȘASM"
+        },
+        "melnic": {
+          "name": "MELNIC Victor",
+          "role": "PhD, associate professor, USM, president AO “AROMEDA”"
+        },
+        "cibotaru": {
+          "name": "CIBOTARU Elena",
+          "role": "PhD, associate professor, UTM, FȘASM"
+        },
+        "zagareanu": {
+          "name": "ZAGAREANU Andrei",
+          "role": "PhD, president ANARM"
+        },
+        "cataraga": {
+          "name": "CATARAGA Ivan",
+          "role": "PhD, beekeeper"
+        },
+        "dragoman": {
+          "name": "DRAGOMAN Iurii",
+          "role": "PhD student, UTM, FȘASM"
+        }
+      }
+    }
+  },
+  "about": {
+    "heading": "About the project",
+    "textPart1": "Scientific-practical seminar organized within the Technical University of Moldova, Faculty of Agricultural, Forestry and Environmental Sciences, Department of Animal Resources and Food Safety.",
+    "textPart2": "The event is organized within the doctoral project",
+    "textBold": "“Technological aspects of forming the melliferous conveyor under the conditions of the Republic of Moldova”",
+    "textPart3": ", specialty 421.02 Animal Nutrition and Feed Technology."
+  },
+  "contacts": {
+    "heading": "Contacts",
+    "text": "For additional information about the seminar, please contact the organizing team from the Technical University of Moldova."
+  },
+  "agenda": {
+    "heading": "Agenda",
+    "presentationsTitle": "Presentations",
+    "items": {
+      "registration": {
+        "title": "Participant registration"
+      },
+      "salutation": {
+        "title": "Welcome words",
+        "speaker": "POPA Sergiu",
+        "role": "PhD, assoc. prof., Dean of FȘASM, UTM"
+      },
+      "policies": {
+        "title": "Beekeeping development policies in the Republic of Moldova",
+        "speaker": "ROȘCA Valentin",
+        "roleLine1": "Head of Livestock Policy Department,",
+        "roleLine2": "Ministry of Agriculture and Food Industry"
+      },
+      "association": {
+        "title": "The role of beekeepers’ associations in developing the melliferous base",
+        "speaker": "MAXIM Ion",
+        "role": "Executive Director ANARM"
+      },
+      "currentState": {
+        "title": "Current state of the melliferous base in the Republic of Moldova",
+        "speaker": "MARDARI Tatiana",
+        "role": "PhD, assoc. prof., FȘASM, UTM"
+      },
+      "nutrition": {
+        "title": "Nutrients necessary for improving the vitality and productivity of bees",
+        "speaker": "CAISÎN Larisa",
+        "role": "Dr. habil., university professor, FȘASM, UTM"
+      },
+      "principles": {
+        "title": "Principles of organizing the melliferous conveyor",
+        "speaker": "DRAGOMAN Iurii",
+        "role": "PhD student, FȘASM, UTM"
+      },
+      "melliferousPlants": {
+        "title": "Melliferous plant species with aromatic and medicinal uses",
+        "speaker": "MELNIC Victor",
+        "role": "PhD, assoc. prof., USM, president AO “AROMEDA”"
+      },
+      "forestPlantations": {
+        "title": "Forest plantations with high added value. Melliferous conveyor.",
+        "speaker": "SAINSUS Alexandru V.",
+        "role": "ARBORETUM.LIVE platform"
+      },
+      "honeyQuality": {
+        "title": "Aspects of honey quality depending on the geographical area of the Republic of Moldova",
+        "speaker": "CATARAGA Ivan",
+        "role": "PhD in agricultural sciences, beekeeper"
+      },
+      "efficientUse": {
+        "title": "Efficient valorization of the existing melliferous base",
+        "speaker": "SACARA Petru",
+        "role": "President AO “MOLDAPIS”, beekeeper, queen breeder"
+      },
+      "naturalHarvest": {
+        "title": "Natural honey flow vs artificial feeding",
+        "speaker": "MIRON Vladimir",
+        "role": "beekeeper, APICOLA MIRON"
+      },
+      "competitiveness": {
+        "title": "The influence of the melliferous base on the competitiveness of bee products",
+        "speaker": "ZBANCĂ Andrei",
+        "role": "PhD, assoc. prof., FIEB, UTM"
+      },
+      "coffeeBreak": {
+        "title": "Coffee break"
+      },
+      "discussions": {
+        "title": "Discussions"
+      }
+    }
+  },
+  "pages": {
+    "notfound": {
+      "title": "Page not found",
+      "description": "The requested page could not be found on the website.",
+      "keywords": "404, page not found, missing page"
     },
     "agenda": {
-      "title": "Agenda | Melliferous Potential of the Republic of Moldova",
-      "description": "Explore the detailed schedule of presentations dedicated to the melliferous potential and apiculture in Moldova.",
-      "keywords": "seminar agenda, beekeeping presentations, Moldova",
-      "heading": "Agenda",
-      "presentationsTitle": "Presentations",
-      "items": {
-        "registration": {
-          "title": "Participant registration"
-        },
-        "salutation": {
-          "title": "Welcome remarks",
-          "speaker": "POPA Sergiu",
-          "role": "PhD, associate professor, Dean of FSAE, TUM"
-        },
-        "policies": {
-          "title": "Policies for developing apiculture in the Republic of Moldova",
-          "speaker": "ROȘCA Valentin",
-          "roleLine1": "Head of the Zootechnics Policy Department,",
-          "roleLine2": "Ministry of Agriculture and Food Industry"
-        },
-        "association": {
-          "title": "The role of beekeepers’ associations in developing the melliferous base",
-          "speaker": "MAXIM Ion",
-          "role": "Executive director of ANARM"
-        },
-        "currentState": {
-          "title": "Current state of the melliferous base in the Republic of Moldova",
-          "speaker": "MARDARI Tatiana",
-          "role": "PhD, associate professor, FSAE, TUM"
-        },
-        "nutrition": {
-          "title": "Nutrients necessary to increase the vitality and productivity of bees",
-          "speaker": "CAISÎN Larisa",
-          "role": "Dr. habil., university professor, FSAE, TUM"
-        },
-        "principles": {
-          "title": "Principles for organizing the melliferous conveyor",
-          "speaker": "DRAGOMAN Iurii",
-          "role": "PhD candidate, FSAE, TUM"
-        },
-        "melliferousPlants": {
-          "title": "Melliferous plant species with aromatic and medicinal uses",
-          "speaker": "MELNIC Victor",
-          "role": "PhD, associate professor, USM, president of AO “AROMEDA”"
-        },
-        "forestPlantations": {
-          "title": "Forest plantations with high added value. The melliferous conveyor.",
-          "speaker": "SAINSUS Alexandru V.",
-          "role": "ARBORETUM.LIVE platform"
-        },
-        "honeyQuality": {
-          "title": "Aspects of honey quality depending on the geographic area of the Republic of Moldova",
-          "speaker": "CATARAGA Ivan",
-          "role": "PhD in agricultural sciences, beekeeper"
-        },
-        "efficientUse": {
-          "title": "Efficient use of the existing melliferous base",
-          "speaker": "SACARA Petru",
-          "role": "President of AO “MOLDAPIS”, beekeeper, queen breeder"
-        },
-        "naturalHarvest": {
-          "title": "Natural nectar flow vs. artificial feeding",
-          "speaker": "MIRON Vladimir",
-          "role": "Beekeeper, APICOLA MIRON"
-        },
-        "competitiveness": {
-          "title": "Influence of the melliferous base on the competitiveness of apicultural products",
-          "speaker": "ZBANCĂ Andrei",
-          "role": "PhD, associate professor, FIEB, TUM"
-        },
-        "coffeeBreak": {
-          "title": "Coffee break"
-        },
-        "discussions": {
-          "title": "Discussions"
-        }
-      }
+      "title": "Agenda | The melliferous potential of the Republic of Moldova",
+      "description": "See the detailed schedule of presentations dedicated to the melliferous potential and beekeeping in Moldova.",
+      "keywords": "seminar agenda, beekeeping presentations, Moldova"
     },
-    "notfound": {
-      "title": "Page Not Found",
-      "description": "The page you requested could not be found on this site.",
-      "keywords": "404, page not found, does not exist"
+    "contacts": {
+      "title": "Contacts | The melliferous potential of the Republic of Moldova",
+      "description": "Contact the organizing team of the seminar on Moldova’s melliferous potential.",
+      "keywords": "seminar contacts, beekeeping Moldova, melliferous potential"
+    },
+    "about": {
+      "title": "About | The melliferous potential of the Republic of Moldova",
+      "description": "Learn more about the scientific-practical seminar dedicated to Moldova’s melliferous resources and applied beekeeping research.",
+      "keywords": "about seminar, melliferous project, beekeeping Moldova"
+    },
+    "home": {
+      "title": "The melliferous potential of the Republic of Moldova",
+      "description": "Discover the scientific-practical seminar dedicated to Moldova’s melliferous potential and sustainable beekeeping.",
+      "keywords": "beekeeping seminar, melliferous potential, Moldova, apicultural science"
     }
   },
   "notfound": {
     "breadcrumb": {
-      "title": "Nonexistent Page"
+      "title": "Nonexistent page"
     },
-    "subtitle": "Nonexistent Page — Oooops!",
-    "text": "Sorry, the page you’re looking for could not be found",
-    "btn": "Back Home"
+    "subtitle": "Nonexistent page - Oops!",
+    "text": "Sorry, the page you are looking for could not be found",
+    "btn": "Back home"
   }
 }

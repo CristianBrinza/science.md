@@ -45,20 +45,20 @@ export default function Home() {
         <div className={styles.home_inside}>
           <div className={styles.home_inside_left}>
             <div className={styles.home_inside_left_pretitle}>
-              {t('pages.home.hero.pretitle')}
+              {t('home.hero.pretitle')}
             </div>
             <div className={styles.home_inside_left_title}>
-              {t('pages.home.hero.titleLine1')}
+              {t('home.hero.titleLine1')}
               <br />
-              {t('pages.home.hero.titleLine2')}
+              {t('home.hero.titleLine2')}
             </div>
             <div className={styles.home_inside_left_subtitle}>
-              {t('pages.home.hero.subtitlePart1')}{' '}
-              {t('pages.home.hero.subtitlePart2')}
-              <br /> <br />
-              {t('pages.home.hero.subtitlePart3')}{' '}
-              <b>{t('pages.home.hero.subtitleHighlight')}</b>
-              {t('pages.home.hero.subtitlePart4')}
+              <span>
+                {t('home.hero.subtitlePart1')} {t('home.hero.subtitlePart2')}
+                {t('home.hero.subtitlePart3')}{' '}
+                <b>{t('home.hero.subtitleHighlight')}</b>
+                {t('home.hero.subtitlePart4')}
+              </span>
             </div>
             <div className={styles.home_inside_left_btns}>
               <Button
@@ -69,7 +69,7 @@ export default function Home() {
                 hover_bgcolor={'var(--theme_secondary_color_yellow)'}
                 hover_border={'var(--theme_secondary_color_yellow)'}
               >
-                {t('pages.home.hero.buttons.about')}
+                {t('home.hero.buttons.about')}
               </Button>
               <Button
                 to="/agenda"
@@ -77,13 +77,13 @@ export default function Home() {
                 hover_bgcolor={'var(--theme_secondary_color_yellow)'}
                 hover_border={'var(--theme_secondary_color_yellow)'}
               >
-                {t('pages.home.hero.buttons.agenda')}
+                {t('home.hero.buttons.agenda')}
               </Button>
             </div>
           </div>
           <img
             className={styles.home_hero_img}
-            alt={t('pages.home.hero.imageAlt')}
+            alt={t('home.hero.imageAlt')}
             src="/images/home_hero_1.webp"
           />
         </div>
@@ -93,28 +93,28 @@ export default function Home() {
         <div className={styles.partners_block}>
           <img
             className={styles.partners_img}
-            alt={t('pages.home.partners.imageAlt')}
+            alt={t('home.partners.imageAlt')}
             src="/images/p1.webp"
           />
         </div>
         <div className={styles.partners_block}>
           <img
             className={styles.partners_img}
-            alt={t('pages.home.partners.imageAlt')}
+            alt={t('home.partners.imageAlt')}
             src="/images/p2.webp"
           />
         </div>
         <div className={styles.partners_block}>
           <img
             className={styles.partners_img}
-            alt={t('pages.home.partners.imageAlt')}
+            alt={t('home.partners.imageAlt')}
             src="/images/p3.webp"
           />
         </div>
         <div className={styles.partners_block}>
           <img
             className={styles.partners_img}
-            alt={t('pages.home.partners.imageAlt')}
+            alt={t('home.partners.imageAlt')}
             src="/images/p4.webp"
           />
         </div>
@@ -122,14 +122,16 @@ export default function Home() {
 
       <div className={styles.home_block_2}>
         <div className={styles.home_block_2_title_1}>
-          {t('pages.home.projectSection.title')}
+          {t('home.projectSection.title')}
         </div>
         <div className={styles.home_block_2_text_1}>
-          {t('pages.home.projectSection.textPart1')}
+          {t('home.projectSection.textPart1')}
           <br /> <br />
-          {t('pages.home.projectSection.textPart2')}{' '}
-          <b>{t('pages.home.projectSection.textBold')}</b>
-          {t('pages.home.projectSection.textPart3')}
+          {t('home.projectSection.textPart2')}{' '}
+          <span>
+            <b>{t('home.projectSection.textBold')}</b>
+            {t('home.projectSection.textPart3')}
+          </span>
         </div>
         <div className={styles.home_block_2_btns}>
           <Button
@@ -140,7 +142,7 @@ export default function Home() {
             hover_bgcolor={'var(--theme_secondary_color_yellow)'}
             hover_border={'var(--theme_secondary_color_yellow)'}
           >
-            {t('pages.home.projectSection.buttons.contacts')}
+            {t('home.projectSection.buttons.contacts')}
           </Button>
           <Button
             to="/agenda"
@@ -148,7 +150,7 @@ export default function Home() {
             hover_bgcolor={'var(--theme_secondary_color_yellow)'}
             hover_border={'var(--theme_secondary_color_yellow)'}
           >
-            {t('pages.home.projectSection.buttons.agenda')}
+            {t('home.projectSection.buttons.agenda')}
           </Button>
         </div>
       </div>
@@ -156,72 +158,72 @@ export default function Home() {
       <div className={styles.about}>
         <div className={styles.about_left}>
           <div className={styles.about_left_title}>
-            {t('pages.home.organizing.title')}
+            {t('home.organizing.title')}
           </div>
           <div className={styles.about_list}>
             <span>
-              <b>{t('pages.home.organizing.members.dragoman.name')}</b>,{' '}
-              {t('pages.home.organizing.members.dragoman.role')}
+              <b>{t('home.organizing.members.dragoman.name')}</b>,{' '}
+              {t('home.organizing.members.dragoman.role')}
             </span>
             <span>
-              <b>{t('pages.home.organizing.members.bivol.name')}</b>,{' '}
-              {t('pages.home.organizing.members.bivol.role')}
+              <b>{t('home.organizing.members.bivol.name')}</b>,{' '}
+              {t('home.organizing.members.bivol.role')}
             </span>
             <span>
-              <b>{t('pages.home.organizing.members.cibotaru.name')}</b>,{' '}
-              {t('pages.home.organizing.members.cibotaru.role')}
+              <b>{t('home.organizing.members.cibotaru.name')}</b>,{' '}
+              {t('home.organizing.members.cibotaru.role')}
             </span>
             <span>
-              <b>{t('pages.home.organizing.members.petcu.name')}</b>,{' '}
-              {t('pages.home.organizing.members.petcu.role')}
+              <b>{t('home.organizing.members.petcu.name')}</b>,{' '}
+              {t('home.organizing.members.petcu.role')}
             </span>
             <span>
-              <b>{t('pages.home.organizing.members.brinza.name')}</b>,{' '}
-              {t('pages.home.organizing.members.brinza.role')}
+              <b>{t('home.organizing.members.brinza.name')}</b>,{' '}
+              {t('home.organizing.members.brinza.role')}
             </span>
             <span>
-              <b>{t('pages.home.organizing.members.rusu.name')}</b>,{' '}
-              {t('pages.home.organizing.members.rusu.role')}
+              <b>{t('home.organizing.members.rusu.name')}</b>,{' '}
+              {t('home.organizing.members.rusu.role')}
             </span>
           </div>
         </div>
 
         <div className={styles.about_left}>
           <div className={styles.about_left_title}>
-            {t('pages.home.scientific.title')}
+            {t('home.scientific.title')}
           </div>
           <div className={styles.about_list}>
             <span>
-              <b>{t('pages.home.scientific.members.eremia.name')}</b>,{' '}
-              {t('pages.home.scientific.members.eremia.role')}
+              <b>{t('home.scientific.members.eremia.name')}</b>,{' '}
+              {t('home.scientific.members.eremia.role')}
             </span>
             <span>
-              <b>{t('pages.home.scientific.members.caisin.name')}</b>,{' '}
-              {t('pages.home.scientific.members.caisin.role')}
+              <b>{t('home.scientific.members.caisin.name')}</b>,{' '}
+              {t('home.scientific.members.caisin.role')}
             </span>
             <span>
-              <b>{t('pages.home.scientific.members.mardari.name')}</b>,{' '}
-              {t('pages.home.scientific.members.mardari.role')}
+              <b>{t('home.scientific.members.mardari.name')}</b>,{' '}
+              {t('home.scientific.members.mardari.role')}
             </span>
             <span>
-              <b>{t('pages.home.scientific.members.melnic.name')}</b>,{' '}
-              {t('pages.home.scientific.members.melnic.role')}
+              <b>{t('home.scientific.members.melnic.name')}</b>,{' '}
+              {t('home.scientific.members.melnic.role')}
             </span>
             <span>
-              <b>{t('pages.home.scientific.members.cibotaru.name')}</b>,{' '}
-              {t('pages.home.scientific.members.cibotaru.role')}
+              <b>{t('home.scientific.members.cibotaru.name')}</b>,{' '}
+              {t('home.scientific.members.cibotaru.role')}
             </span>
             <span>
-              <b>{t('pages.home.scientific.members.zagareanu.name')}</b>,{' '}
-              {t('pages.home.scientific.members.zagareanu.role')}
+              <b>{t('home.scientific.members.zagareanu.name')}</b>,{' '}
+              {t('home.scientific.members.zagareanu.role')}
             </span>
             <span>
-              <b>{t('pages.home.scientific.members.cataraga.name')}</b>,{' '}
-              {t('pages.home.scientific.members.cataraga.role')}
+              <b>{t('home.scientific.members.cataraga.name')}</b>,{' '}
+              {t('home.scientific.members.cataraga.role')}
             </span>
             <span>
-              <b>{t('pages.home.scientific.members.dragoman.name')}</b>,{' '}
-              {t('pages.home.scientific.members.dragoman.role')}
+              <b>{t('home.scientific.members.dragoman.name')}</b>,{' '}
+              {t('home.scientific.members.dragoman.role')}
             </span>
           </div>
         </div>

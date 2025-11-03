@@ -18,13 +18,13 @@ export default function Agenda() {
       <Navbar />
 
       <div className={styles.agenda}>
-        <div className={styles.agenda_title}>{t('pages.agenda.heading')}</div>
+        <div className={styles.agenda_title}>{t('agenda.heading')}</div>
 
         <div className={styles.agenda_blocks}>
           <div className={styles.agenda_block}>
             <div className={styles.agenda_hour}>09:30</div>
             <div className={styles.agenda_text}>
-              <b>{t('pages.agenda.items.registration.title')}</b>
+              <b>{t('agenda.items.registration.title')}</b>
             </div>
           </div>
 
@@ -32,15 +32,15 @@ export default function Agenda() {
             <div className={styles.agenda_hour}>10:00</div>
             <div className={styles.agenda_text}>
               <span>
-                <b>{t('pages.agenda.items.salutation.title')}</b> <br />
-                {t('pages.agenda.items.salutation.speaker')},
-                <i>{t('pages.agenda.items.salutation.role')}</i>
+                <b>{t('agenda.items.salutation.title')}</b> <br />
+                {t('agenda.items.salutation.speaker')},
+                <i>{t('agenda.items.salutation.role')}</i>
               </span>
             </div>
           </div>
 
           <div className={styles.agenda_title_2}>
-            {t('pages.agenda.presentationsTitle')}
+            {t('agenda.presentationsTitle')}
           </div>
 
           <div className={styles.agenda_blocks_bg}>
@@ -48,11 +48,11 @@ export default function Agenda() {
               <div className={styles.agenda_hour}>10:05</div>
               <div className={styles.agenda_text}>
                 <span>
-                  <b>{t('pages.agenda.items.policies.title')}</b> <br />
-                  {t('pages.agenda.items.policies.speaker')},{' '}
-                  <i>{t('pages.agenda.items.policies.roleLine1')}</i>
+                  <b>{t('agenda.items.policies.title')}</b> <br />
+                  {t('agenda.items.policies.speaker')},{' '}
+                  <i>{t('agenda.items.policies.roleLine1')}</i>
                   <br />
-                  <i>{t('pages.agenda.items.policies.roleLine2')}</i>
+                  <i>{t('agenda.items.policies.roleLine2')}</i>
                 </span>
               </div>
             </div>
@@ -61,10 +61,10 @@ export default function Agenda() {
               <div className={styles.agenda_hour}>10:20</div>
               <div className={styles.agenda_text}>
                 <span>
-                  <b>{t('pages.agenda.items.association.title')}</b>
+                  <b>{t('agenda.items.association.title')}</b>
                   <br />
-                  {t('pages.agenda.items.association.speaker')},{' '}
-                  <i>{t('pages.agenda.items.association.role')}</i>
+                  {t('agenda.items.association.speaker')},{' '}
+                  <i>{t('agenda.items.association.role')}</i>
                 </span>
               </div>
             </div>
@@ -73,10 +73,9 @@ export default function Agenda() {
               <div className={styles.agenda_hour}>10:30</div>
               <div className={styles.agenda_text}>
                 <span>
-                  <b>{t('pages.agenda.items.currentState.title')}</b> <br />
-                  {t('pages.agenda.items.currentState.speaker')}, <i>
-                    {t('pages.agenda.items.currentState.role')}
-                  </i>
+                  <b>{t('agenda.items.currentState.title')}</b> <br />
+                  {t('agenda.items.currentState.speaker')},{' '}
+                  <i>{t('agenda.items.currentState.role')}</i>
                 </span>
               </div>
             </div>
@@ -85,10 +84,10 @@ export default function Agenda() {
               <div className={styles.agenda_hour}>10:45</div>
               <div className={styles.agenda_text}>
                 <span>
-                  <b>{t('pages.agenda.items.nutrition.title')}</b>
+                  <b>{t('agenda.items.nutrition.title')}</b>
                   <br />
-                  {t('pages.agenda.items.nutrition.speaker')},
-                  <i>{t('pages.agenda.items.nutrition.role')}</i>
+                  {t('agenda.items.nutrition.speaker')},
+                  <i>{t('agenda.items.nutrition.role')}</i>
                 </span>
               </div>
             </div>
@@ -97,9 +96,9 @@ export default function Agenda() {
               <div className={styles.agenda_hour}>11:00</div>
               <div className={styles.agenda_text}>
                 <span>
-                  <b>{t('pages.agenda.items.principles.title')}</b> <br />
-                  {t('pages.agenda.items.principles.speaker')},{' '}
-                  <i>{t('pages.agenda.items.principles.role')}</i>
+                  <b>{t('agenda.items.principles.title')}</b> <br />
+                  {t('agenda.items.principles.speaker')},{' '}
+                  <i>{t('agenda.items.principles.role')}</i>
                 </span>
               </div>
             </div>
@@ -108,10 +107,10 @@ export default function Agenda() {
               <div className={styles.agenda_hour}>11:30</div>
               <div className={styles.agenda_text}>
                 <span>
-                  <b>{t('pages.agenda.items.melliferousPlants.title')}</b>
+                  <b>{t('agenda.items.melliferousPlants.title')}</b>
                   <br />
-                  {t('pages.agenda.items.melliferousPlants.speaker')},{' '}
-                  <i>{t('pages.agenda.items.melliferousPlants.role')}</i>
+                  {t('agenda.items.melliferousPlants.speaker')},{' '}
+                  <i>{t('agenda.items.melliferousPlants.role')}</i>
                 </span>
               </div>
             </div>
@@ -120,10 +119,10 @@ export default function Agenda() {
               <div className={styles.agenda_hour}>11:45</div>
               <div className={styles.agenda_text}>
                 <span>
-                  <b>{t('pages.agenda.items.forestPlantations.title')}</b>
+                  <b>{t('agenda.items.forestPlantations.title')}</b>
                   <br />
-                  {t('pages.agenda.items.forestPlantations.speaker')},{' '}
-                  <i>{t('pages.agenda.items.forestPlantations.role')}</i>
+                  {t('agenda.items.forestPlantations.speaker')},{' '}
+                  <i>{t('agenda.items.forestPlantations.role')}</i>
                 </span>
               </div>
             </div>
@@ -132,10 +131,10 @@ export default function Agenda() {
               <div className={styles.agenda_hour}>12:00</div>
               <div className={styles.agenda_text}>
                 <span>
-                  <b>{t('pages.agenda.items.honeyQuality.title')}</b>
+                  <b>{t('agenda.items.honeyQuality.title')}</b>
                   <br />
-                  {t('pages.agenda.items.honeyQuality.speaker')},{' '}
-                  <i>{t('pages.agenda.items.honeyQuality.role')}</i>
+                  {t('agenda.items.honeyQuality.speaker')},{' '}
+                  <i>{t('agenda.items.honeyQuality.role')}</i>
                 </span>
               </div>
             </div>
@@ -144,10 +143,10 @@ export default function Agenda() {
               <div className={styles.agenda_hour}>12:15</div>
               <div className={styles.agenda_text}>
                 <span>
-                  <b>{t('pages.agenda.items.efficientUse.title')}</b>
+                  <b>{t('agenda.items.efficientUse.title')}</b>
                   <br />
-                  {t('pages.agenda.items.efficientUse.speaker')},{' '}
-                  <i>{t('pages.agenda.items.efficientUse.role')}</i>
+                  {t('agenda.items.efficientUse.speaker')},{' '}
+                  <i>{t('agenda.items.efficientUse.role')}</i>
                 </span>
               </div>
             </div>
@@ -156,9 +155,9 @@ export default function Agenda() {
               <div className={styles.agenda_hour}>12:30</div>
               <div className={styles.agenda_text}>
                 <div>
-                  <b>{t('pages.agenda.items.naturalHarvest.title')}</b> <br />
-                  {t('pages.agenda.items.naturalHarvest.speaker')},{' '}
-                  <i>{t('pages.agenda.items.naturalHarvest.role')}</i>
+                  <b>{t('agenda.items.naturalHarvest.title')}</b> <br />
+                  {t('agenda.items.naturalHarvest.speaker')},{' '}
+                  <i>{t('agenda.items.naturalHarvest.role')}</i>
                 </div>
               </div>
             </div>
@@ -167,10 +166,10 @@ export default function Agenda() {
               <div className={styles.agenda_hour}>12:45</div>
               <div className={styles.agenda_text}>
                 <div>
-                  <b>{t('pages.agenda.items.competitiveness.title')}</b>
+                  <b>{t('agenda.items.competitiveness.title')}</b>
                   <br />
-                  {t('pages.agenda.items.competitiveness.speaker')},{' '}
-                  <i>{t('pages.agenda.items.competitiveness.role')}</i>
+                  {t('agenda.items.competitiveness.speaker')},{' '}
+                  <i>{t('agenda.items.competitiveness.role')}</i>
                 </div>
               </div>
             </div>
@@ -179,14 +178,14 @@ export default function Agenda() {
           <div className={styles.agenda_block}>
             <div className={styles.agenda_hour}>13:00</div>
             <div className={styles.agenda_text}>
-              <b>{t('pages.agenda.items.coffeeBreak.title')}</b>
+              <b>{t('agenda.items.coffeeBreak.title')}</b>
             </div>
           </div>
 
           <div className={styles.agenda_block}>
             <div className={styles.agenda_hour}>14:00</div>
             <div className={styles.agenda_text}>
-              <b>{t('pages.agenda.items.discussions.title')}</b>
+              <b>{t('agenda.items.discussions.title')}</b>
             </div>
           </div>
         </div>

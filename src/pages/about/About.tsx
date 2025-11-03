@@ -7,9 +7,9 @@ import SEO from '../../components/SEO.tsx';
 export default function About() {
   const { t } = useTranslation();
   const seo = {
-    title: t('pages.about.title'),
-    description: t('pages.about.description'),
-    keywords: t('pages.about.keywords'),
+    title: t('ages.about.title'),
+    description: t('ages.about.description'),
+    keywords: t('ages.about.keywords'),
   };
 
   return (
@@ -18,13 +18,12 @@ export default function About() {
       <Navbar />
 
       <div className={styles.about}>
-        <div className={styles.about_title_1}>{t('pages.about.heading')}</div>
+        <div className={styles.about_title_1}>{t('about.heading')}</div>
         <div className={styles.about_text_1}>
-          {t('pages.about.textPart1')}
+          {t('about.textPart1')}
           <br /> <br />
-          {t('pages.about.textPart2')}{' '}
-          <b>{t('pages.about.textBold')}</b>
-          {t('pages.about.textPart3')}
+          {t('about.textPart2')} <b>{t('about.textBold')}</b>
+          {t('about.textPart3')}
         </div>
       </div>
       <Footer disclaimer={true} />

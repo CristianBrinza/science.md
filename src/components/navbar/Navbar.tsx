@@ -105,6 +105,13 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
               <Icon type="ru" size="22px" />
               &nbsp;&nbsp; RU
             </div>
+            <div
+              className={styles.navbar_inside_right_navbar_lang_choose_btn}
+              onClick={() => handleChangeLanguage('en')}
+            >
+              <Icon type="en" size="22px" />
+              &nbsp;&nbsp; EN
+            </div>
           </div>
         </div>
       </div>
